@@ -10,14 +10,251 @@ body {
 }
 
 .app {
-  background-image: url("./assets/rain.jpg");
+  background-image: url("./assets/app.jpg");
   background-size: cover;
   background-position: bottom;
   transition: 1s ease-out;
 }
+/* background images generated randomly based on weather conditions */
 
-.app.sun {
-  background-image: url("./assets/sun.jpg");
+.Ash_1 {
+  background-image: url("assets/Ash_1.jpg");
+}
+.Ash_2 {
+  background-image: url("assets/Ash_2.jpg");
+}
+.Ash_3 {
+  background-image: url("assets/Ash_3.jpg");
+}
+.Ash_4 {
+  background-image: url("assets/Ash_4.jpg");
+}
+.Ash_5 {
+  background-image: url("assets/Ash_5.jpg");
+}
+
+.Clear_1 {
+  background-image: url("./assets/Clear_1.jpg");
+}
+.Clear_2 {
+  background-image: url("./assets/Clear_2.jpg");
+}
+.Clear_3 {
+  background-image: url("./assets/Clear_3.jpg");
+}
+.Clear_4 {
+  background-image: url("./assets/Clear_4.jpg");
+}
+.Clear_5 {
+  background-image: url("./assets/Clear_5.jpg");
+}
+
+.Clouds_1 {
+  background-image: url("./assets/Clouds_1.jpg");
+}
+.Clouds_2 {
+  background-image: url("./assets/Clouds_2.jpg");
+}
+.Clouds_3 {
+  background-image: url("./assets/Clouds_3.jpg");
+}
+.Clouds_4 {
+  background-image: url("./assets/Clouds_4.jpg");
+}
+.Clouds_5 {
+  background-image: url("./assets/Clouds_5.jpg");
+}
+
+.Drizzle_1 {
+  background-image: url("assets/Drizzle_1.jpg");
+}
+.Drizzle_2 {
+  background-image: url("assets/Drizzle_2.jpg");
+}
+.Drizzle_3 {
+  background-image: url("assets/Drizzle_3.jpg");
+}
+.Drizzle_4 {
+  background-image: url("assets/Drizzle_4.jpg");
+}
+.Drizzle_5 {
+  background-image: url("assets/Drizzle_5.jpg");
+}
+
+.Dust_1 {
+  background-image: url("assets/Dust_1.jpg");
+}
+.Dust_2 {
+  background-image: url("assets/Dust_2.jpg");
+}
+.Dust_3 {
+  background-image: url("assets/Dust_3.jpg");
+}
+.Dust_4 {
+  background-image: url("assets/Dust_4.jpg");
+}
+.Dust_5 {
+  background-image: url("assets/Dust_5.jpg");
+}
+
+.Fog_1 {
+  background-image: url("assets/Fog_1.jpg");
+}
+.Fog_2 {
+  background-image: url("assets/Fog_2.jpg");
+}
+.Fog_3 {
+  background-image: url("assets/Fog_3.jpg");
+}
+.Fog_4 {
+  background-image: url("assets/Fog_4.jpg");
+}
+.Fog_5 {
+  background-image: url("assets/Fog_5.jpg");
+}
+
+.Haze_1 {
+  background-image: url("assets/Haze_1.jpg");
+}
+.Haze_2 {
+  background-image: url("assets/Haze_2.jpg");
+}
+.Haze_3 {
+  background-image: url("assets/Haze_3.jpg");
+}
+.Haze_4 {
+  background-image: url("assets/Haze_4.jpg");
+}
+.Haze_5 {
+  background-image: url("assets/Haze_5.jpg");
+}
+
+.Mist_1 {
+  background-image: url("assets/Mist_1.jpg");
+}
+.Mist_2 {
+  background-image: url("assets/Mist_2.jpg");
+}
+.Mist_3 {
+  background-image: url("assets/Mist_3.jpg");
+}
+.Mist_4 {
+  background-image: url("assets/Mist_4.jpg");
+}
+.Mist_5 {
+  background-image: url("assets/Mist_5.jpg");
+}
+
+.Rain_1 {
+  background-image: url("assets/Rain_1.jpg");
+}
+.Rain_2 {
+  background-image: url("assets/Rain_2.jpg");
+}
+.Rain_3 {
+  background-image: url("assets/Rain_3.jpg");
+}
+.Rain_4 {
+  background-image: url("assets/Rain_4.jpg");
+}
+.Rain_5 {
+  background-image: url("assets/Rain_5.jpg");
+}
+
+.Sand_1 {
+  background-image: url("assets/Sand_1.jpg");
+}
+.Sand_2 {
+  background-image: url("assets/Sand_2.jpg");
+}
+.Sand_3 {
+  background-image: url("assets/Sand_3.jpg");
+}
+.Sand_4 {
+  background-image: url("assets/Sand_4.jpg");
+}
+.Sand_5 {
+  background-image: url("assets/Sand_5.jpg");
+}
+
+.Smoke_1 {
+  background-image: url("assets/Smoke_1.jpg");
+}
+.Smoke_2 {
+  background-image: url("assets/Smoke_2.jpg");
+}
+.Smoke_3 {
+  background-image: url("assets/Smoke_3.png");
+}
+.Smoke_4 {
+  background-image: url("assets/Smoke_4.jpg");
+}
+.Smoke_5 {
+  background-image: url("assets/Smoke_5.jpg");
+}
+
+.Snow_1 {
+  background-image: url("assets/Snow_1.jpg");
+}
+.Snow_2 {
+  background-image: url("assets/Snow_2.jpg");
+}
+.Snow_3 {
+  background-image: url("assets/Snow_3.jpg");
+}
+.Snow_4 {
+  background-image: url("assets/Snow_4.jpg");
+}
+.Snow_5 {
+  background-image: url("assets/Snow_5.jpg");
+}
+
+.Squall_1 {
+  background-image: url("assets/Squall_1.jpg");
+}
+.Squall_2 {
+  background-image: url("assets/Squall_2.jpg");
+}
+.Squall_3 {
+  background-image: url("assets/Squall_3.jpg");
+}
+.Squall_4 {
+  background-image: url("assets/Squall_4.jpg");
+}
+.Squall_5 {
+  background-image: url("assets/Squall_5.jpg");
+}
+
+.Thunderstorm_1 {
+  background-image: url("assets/Thunderstorm_1.jpg");
+}
+.Thunderstorm_2 {
+  background-image: url("assets/Thunderstorm_2.jpg");
+}
+.Thunderstorm_3 {
+  background-image: url("assets/Thunderstorm_3.jpg");
+}
+.Thunderstorm_4 {
+  background-image: url("assets/Thunderstorm_4.jpg");
+}
+.Thunderstorm_5 {
+  background-image: url("assets/Thunderstorm_5.jpg");
+}
+
+.Tornado_1 {
+  background-image: url("assets/Tornado_1.jpg");
+}
+.Tornado_2 {
+  background-image: url("assets/Tornado_2.jpg");
+}
+.Tornado_3 {
+  background-image: url("assets/Tornado_3.jpg");
+}
+.Tornado_4 {
+  background-image: url("assets/Tornado_4.jpg");
+}
+.Tornado_5 {
+  background-image: url("assets/Tornado_5.jpg");
 }
 
 main {
@@ -26,7 +263,7 @@ main {
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.75)
+    rgba(0, 0, 0, 0.3)
   );
 }
 

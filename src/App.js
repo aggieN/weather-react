@@ -5,9 +5,12 @@ const api = {
   base: "https://api.openweathermap.org/data/2.5/",
 };
 
+// const weatherMain = ["Clear", "Rain", "Clouds", "Drizzle", "Thunderstorm", 'Snow', 'Mist', 'Smoke', 'Haze', 'Dust', 'Fog', 'Sand', 'Ash', 'Squall', 'Tornado'];
+
 function App() {
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState({});
+  const [classValue, setClassValue] = useState("app");
 
   const search = (evt) => {
     if (evt.key === "Enter") {
@@ -15,8 +18,14 @@ function App() {
         .then((res) => res.json())
         .then((result) => {
           setWeather(result);
+          setClassValue(() =>
+            typeof result.weather != undefined
+              ? `app ${result.weather[0].main}_${
+                  Math.floor(Math.random() * 5) + 1
+                }`
+              : "app"
+          );
           setQuery("");
-          console.log(result);
         });
     }
   };
@@ -53,16 +62,9 @@ function App() {
 
     return `${day} ${date} ${month} ${year}`;
   };
+
   return (
-    <div
-      className={
-        typeof weather.main != "undefined"
-          ? weather.main.temp > 16
-            ? "app sun"
-            : "app"
-          : "app"
-      }
-    >
+    <div className={classValue}>
       <main>
         <div className="search-box">
           <input
